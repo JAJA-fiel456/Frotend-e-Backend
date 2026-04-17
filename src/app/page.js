@@ -1,11 +1,10 @@
-import { TopbarMenu } from "@/components/ui/topbar-menu"
-import { Card } from "@/components/ui/card"
+import { Carousel } from "@/components/ui/carousel"
+
 
 export default function Home() {
   return (
     <>
-      <TopbarMenu />
-      <Card />
+    <Carousel/>
       <h1>Home</h1>
     </>
   )

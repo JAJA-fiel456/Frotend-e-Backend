@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card"
+import Link from "next/link"
 
 export default function Cadastro() {
   return (
@@ -27,6 +28,9 @@ export default function Cadastro() {
         <button className="bg-black text-white px-4 py-2 rounded w-full">
           Criar conta
         </button>
+
+        <h2 className="text-1xl  text-center">Ja tem conta ? voce pode <Link href="/login"> logar </Link></h2>
+
       </Card>
     </main>
   )

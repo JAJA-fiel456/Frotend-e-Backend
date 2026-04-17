@@ -4,7 +4,7 @@ import { Button } from "./button";
 export function TopbarMenu(){
     return (
         <header className="flex items-center gap-9 h-20 w-260 m-auto">
-            <h1 className="text-5xl font-extrabold">MinURL</h1>
+            <h1 className="text-5xl font-extrabold"><Link href="/">Medkit</Link></h1>
             <nav className="flex justify-between items-center w-full">
                 <div className="flex gap-6 text-sm">
                     <Link href="/">Planos</Link>
