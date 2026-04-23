@@ -9,7 +9,7 @@ export default function Login() {
 
         <input 
           type="email" 
-          placeholder="Email" 
+          placeholder="Email"  
           className="border p-2 rounded w-full"
         />
 
